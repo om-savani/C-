@@ -17,9 +17,9 @@ public:
 	B()
 	{
 		cout << "Enter A : ";
-        cin >> a;
+        	cin >> a;
 		cout << "Enter B : ";
-        cin >> b;
+        	cin >> b;
 	}
 };
 
@@ -32,7 +32,7 @@ public:
 	C()
 	{
 		cout << "Enter C : ";
-        cin >> c;
+       		cin >> c;
 	}
 };
 
@@ -45,10 +45,10 @@ public:
 	D()
 	{
 		cout << "Enter D : ";
-        cin >> d;
+        	cin >> d;
 
 		sum = B::a + b + c + d;
-        cout << endl << "Sum = " << sum << endl;
+        	cout << endl << "Sum = " << sum << endl;
 	}
 
 };
