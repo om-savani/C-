@@ -27,6 +27,7 @@ public:
 		}
 		else
 		{
+			b2.n = n;
 			return b2;
 		}
 	}
