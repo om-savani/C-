@@ -2,9 +2,14 @@
 
 int main()
 {
-	Admin n;
-	
-	n.setdata();
+	Admin a;
+	a.myaccess();
+
+    Manager m;
+	m.setmngdata();
+
+	Employee e;
+	e.myaccess();
 	
 	return 0;
 }
